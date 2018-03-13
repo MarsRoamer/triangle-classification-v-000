@@ -14,7 +14,7 @@ class Triangle
   end
 
   def kind
-    binding.pry
+  
     if triangle
       if @side1 == @side2 && @side2 == @side3
         :equilateral
@@ -25,7 +25,7 @@ class Triangle
       end
     else
       raise TriangleError
-      
+
     end
   end
 end
